@@ -1,0 +1,40 @@
+{
+  "channelConfigs": {
+    "slack": {
+      "enabled": false,
+      "template": "🚀 {repo} shipped {tag}!\n\n{name}\n\n{notes}\n\nRead full release notes: {url}",
+      "updatedAt": "",
+      "botToken": "",
+      "channelId": ""
+    },
+    "discord": {
+      "enabled": false,
+      "template": "🚀 **{repo}** shipped **{tag}**\n\n{name}\n\n{notes}\n\nRelease notes: {url}",
+      "updatedAt": "",
+      "webhookUrl": ""
+    },
+    "twitter": {
+      "enabled": false,
+      "template": "{repo} {tag} is out now. {name}. Details: {url}",
+      "updatedAt": "",
+      "appKey": "",
+      "appSecret": "",
+      "accessToken": "",
+      "accessSecret": ""
+    },
+    "email": {
+      "enabled": false,
+      "template": "{repo} has a new release: {tag}\n\n{name}\n\n{notes}\n\nRelease notes: {url}",
+      "updatedAt": "",
+      "smtpHost": "",
+      "smtpPort": "587",
+      "smtpSecure": false,
+      "smtpUser": "",
+      "smtpPass": "",
+      "fromEmail": "",
+      "recipients": ""
+    }
+  },
+  "stripeCheckoutSessions": {},
+  "deliveryLogs": []
+}
